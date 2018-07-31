@@ -16,23 +16,25 @@ def call_page(url):
     except RequestException:
         return None
 
-# url = 'https://info.finance.yahoo.co.jp/ranking/?kd=53&tm=d&vl=a&mk=1&p=1'
-# html = call_page(url)
-
-
+# 将怕取到的代码设置为全局变量
+CODING = []
 
 #解析页面  思考把代码做一个接口或队列，公用
-# 所有个股链接，代码，名称，资本金
-# def parse_all_pages(html):
-#     patt = re.compile('<tr.*?href="(.*?)">(.*?)</a></td>' + '.*?<td class="normal yjSt">(.*?)</td>'+
-#                       '.*?<td class="txtright bgyellow01">(.*?)</td>',re.S)
-#     items = re.findall(patt,html)
-#     for i in items:
-#         data = pd.DataFrame([i[0],i[1],i[2],i[3]],index=['links','code','name','net assets'])
-#         print(data)
+# 所有 coding, location,name,net_assets
+def parse_all_pages_one(html):
+    patt = re.compile('<td class="txtcenter"><a href=".*?">(.*?)</a></td>' +
+                      '.*?<td class="txtcenter yjSt">(.*?)</td>'+'.*?<td class="normal yjSt">(.*?)</td>'+
+                      '.*?<td class="txtright bgyellow01">(.*?)</td>',re.S)
+    items = re.findall(patt,html)
+    for item in items:
+        print(item)
+        CODING.append(item[0])
+        # data = pd.DataFrame([i[0],i[1],i[2],i[3]],index=['links','code','name','net assets'])
+        # print(data)
 
-
-
+url = 'https://info.finance.yahoo.co.jp/ranking/?kd=53&tm=d&vl=a&mk=1&p=1'
+html = call_page(url)
+parse_all_pages_one(html)
 
 # #
 # parse_all_pages(html)
