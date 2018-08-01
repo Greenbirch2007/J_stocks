@@ -21,37 +21,31 @@ CODING = []
 
 #解析页面  思考把代码做一个接口或队列，公用
 # 所有 coding, location,name,net_assets
-def parse_all_pages_one(html):
-    patt = re.compile('<td class="txtcenter"><a href=".*?">(.*?)</a></td>' +
-                      '.*?<td class="txtcenter yjSt">(.*?)</td>'+'.*?<td class="normal yjSt">(.*?)</td>'+
-                      '.*?<td class="txtright bgyellow01">(.*?)</td>',re.S)
-    items = re.findall(patt,html)
-    for item in items:
-        print(item)
-        CODING.append(item[0])
+# def parse_all_pages_one(html):
+#     patt = re.compile('<td class="txtcenter"><a href=".*?">(.*?)</a></td>' +
+#                       '.*?<td class="txtcenter yjSt">(.*?)</td>'+'.*?<td class="normal yjSt">(.*?)</td>'+
+#                       '.*?<td class="txtright bgyellow01">(.*?)</td>',re.S)
+#     items = re.findall(patt,html)
+#     for item in items:
+#         print(item)
+#         CODING.append(item[0])
         # data = pd.DataFrame([i[0],i[1],i[2],i[3]],index=['links','code','name','net assets'])
         # print(data)
-
-url = 'https://info.finance.yahoo.co.jp/ranking/?kd=53&tm=d&vl=a&mk=1&p=1'
-html = call_page(url)
-parse_all_pages_one(html)
+#
+# url = 'https://info.finance.yahoo.co.jp/ranking/?kd=53&tm=d&vl=a&mk=1&p=1'
+# html = call_page(url)
+# parse_all_pages_one(html)
 
 # #
 # parse_all_pages(html)
 
-# url = 'https://stocks.finance.yahoo.co.jp/stocks/detail/?code=6178.t'
-# html = call_page(url)
-# selector=etree.HTML(html)
+url = 'https://stocks.finance.yahoo.co.jp/stocks/detail/?code=6178.t'
+html = call_page(url)
+selector=etree.HTML(html)
+
 
 #解析一个个股页面
-# code = selector.xpath('//*[@id="stockinf"]/div[1]/div[2]/dl/dt//text()')
-# marker_value = selector.xpath('//*[@id="rfindex"]/div[2]/div[1]/dl/dd/strong//text()')
-# share_nums = selector.xpath('//*[@id="rfindex"]/div[2]/div[2]/dl/dd/strong//text()')
-# returns_ratio = selector.xpath('//*[@id="rfindex"]/div[2]/div[3]/dl/dd/strong//text()')
-#
-# data = pd.DataFrame({'code':code,"marker_value":marker_value,"share_nums":share_nums,'returns_ratio':returns_ratio})
-# print(data)
-#
+
 
 
 url = 'https://kabutan.jp/stock/finance?code=3563&mode=k#zaimu_zisseki'
