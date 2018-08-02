@@ -20,6 +20,7 @@ def call_page(url):
 # 将怕取到的代码设置为全局变量
 
 
+
 #解析页面  思考把代码做一个接口或队列，公用
 # 所有 coding, location,name,net_assets
 def parse_all_pages_one(html):
@@ -31,6 +32,9 @@ def parse_all_pages_one(html):
     for item in items:
         big_list.append(item)
     return big_list
+
+
+
 
 
 def insertDB(content):
@@ -49,9 +53,10 @@ if __name__ == '__main__':
     for offset in range(1,75):
         url = 'https://info.finance.yahoo.co.jp/ranking/?kd=53&tm=d&vl=a&mk=1&p=' + str(offset)
         html = call_page(url)
-        content = parse_all_pages_one(html)
-        insertDB(content)
-        print(offset)
+        parse_all_pages_one(html)
+
+        # insertDB(content)
+        # print(offset)
 
 #
 # create table stocks_note1(

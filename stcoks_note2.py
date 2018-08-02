@@ -15,7 +15,8 @@ from lxml import etree
 import pandas as pd
 import pymysql
 from multiprocessing import Pool
-
+#特殊异常要先引入
+from requests.exceptions import RequestException
 #请求页面
 
 def call_page(url):
@@ -29,15 +30,15 @@ def call_page(url):
 
 # 将怕取到的代码设置为全局变量
 
-coding_list = []
+
 
 #解析页面  思考把代码做一个接口或队列，公用
 # 所有 coding, location,name,net_assets
 def parse_all_pages_one(html):
     patt = re.compile('<td class="txtcenter"><a href=".*?">(.*?)</a></td>',re.S)
     items = re.findall(patt,html)
-    for item in iter(items):
-        coding_list.append(item)
+    for item in set(items):
+        yield item
 
 
 def parse_stock_note(url):
@@ -62,26 +63,28 @@ def insertDB(content):
     connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='j_stocks',
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cursor = connection.cursor()
-    cursor.executemany('insert into stocks_note2 (coding,industry,market_value,share_nums,returns_ratio,min_callMoney) values (%s,%s,%s,%s,%s,%s)', content)
-    connection.commit()
-    connection.close()
-    print('向MySQL中添加数据成功！')
+    try:
+        cursor.executemany('insert into stocks_note2 (coding,industry,market_value,share_nums,returns_ratio,min_callMoney) values (%s,%s,%s,%s,%s,%s)', content)
+        connection.commit()
+        connection.close()
+        print('向MySQL中添加数据成功！')
+    except TypeError :
+        pass
 
+# 存在重复爬取的情况，还有就是会变动的数据还是要等到交易闭市之后再爬取，数据才不会变动！
 
-
-
+# 3589条有遗漏，不知道是不是因为用了进程池的原因！
 if __name__ == '__main__':
     pool = Pool(2)
     for offset in range(1,75):
         url = 'https://info.finance.yahoo.co.jp/ranking/?kd=53&tm=d&vl=a&mk=1&p=' + str(offset)
         html = call_page(url)
-        parse_all_pages_one(html)
-        for Num in iter(coding_list):
-            url = 'https://stocks.finance.yahoo.co.jp/stocks/detail/?code=%s.t' % Num
+        Num = parse_all_pages_one(html)
+        for item in set(Num):
+            url = 'https://stocks.finance.yahoo.co.jp/stocks/detail/?code=%s.t' % item
             content = parse_stock_note(url)
             insertDB(content)
-            print(offset)
-
+            print(url)
 
 
 
@@ -90,8 +93,9 @@ if __name__ == '__main__':
 # create table stocks_note2(
 # id int not null primary key auto_increment,
 # coding varchar(11),
-# ind varchar(11),
-# name text,
-# net_assets text
+# industry varchar(11),
+# market_value varchar(20),
+# share_nums varchar(20),
+# returns_ratio varchar(6),
+# min_callMoney varchar(11)
 # ) engine=InnoDB default charset=utf8;
-#
