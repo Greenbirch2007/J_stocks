@@ -7,6 +7,7 @@ import datetime
 import time
 import requests
 from pymongo import MongoClient
+import pymysql
 
 
 
@@ -53,59 +54,55 @@ def get_spread():
 # 先把爬取和存储的问题全部解决，后面再解决实时可视化的问题！
 #highcharts，可视化就属于前端的部分了,慢慢来吧，监控工具改装一下，就是跟盘的工具！
 #redis还是不适合多个键，多个值同时出现的场景！
-def insert_to_Mongo(item):
-    client = MongoClient(host='localhost',port=27017)   #链接连接数据库
-    db = client.On_time_DT       #建立数据库
-    p = db.ontime_dt            #在上面数据库中建立集合（表）
-    result = p.insert(item)  # 添加内容
-    print(result)
+
+
+
+# def insert_to_Mongo(item):
+#     client = MongoClient(host='localhost',port=27017)   #链接连接数据库
+#     db = client.On_time_DT       #建立数据库
+#     p = db.ontime_dt            #在上面数据库中建立集合（表）
+#     result = p.insert(item)  # 添加内容
+#     print(result)
 
 
 
     # spread = int(A)/int(B)
     # big_list.append(spread)
 
+# 存入MySQL中
+def insertDB(content):
+    connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='on_time_DT',
+                                 charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+    cursor = connection.cursor()
+    cursor.executemany('insert into j_stocks (indexs,stock,spread) values (%s,%s,%s)', content)
+    connection.commit()
+    connection.close()
+    print('向MySQL中添加数据成功！')
+
+#有必要专门做一个监控系统！以来flask或Django，
+
+
+
 if __name__ == '__main__':
-    big_list = []
     while True:
+        big_list = []
         get_index()
         get_stocks()
         get_spread()
-        con_dict = {
-            'time':datetime.datetime.now(),
-            'index':big_list[0],
-            'stock':big_list[1],
-            'spread':big_list[2],
-        }
-        insert_to_Mongo(con_dict)
+        # con_dict = {
+        #     'time':datetime.datetime.now(),
+        #     'index':big_list[0],
+        #     'stock':big_list[1],
+        #     'spread':big_list[2],
+        # }
+        # insert_to_Mongo(con_dict)
 
         time.sleep(3)
 
-        # l_tuple = tuple(big_list)
-        # content = []
-        # content.append(l_tuple)
+        l_tuple = tuple(big_list)
+        content = []
+        content.append(l_tuple)
+        insertDB(content)
         # print(content)
 
 
-
-# python 字符与数字的转换：
-# 整数字符串转换为对应的整数int('12')。
-#
-# 使用格式化字符串:
-# tt=322
-#
-# tem='%d' %tt
-#
-# tem即为tt转换成的字符串
-#
-# 小数字符串转换为对应小数float('12.34')。
-#
-# double num1 = 0.0;String qq = "12.34";num1 = Double.valueOf(qq.toString());
-#
-# 数字转换为字符串str(123.45)。
-#
-# (123.45).to_bytes(4, 'big')
-# b'\x13\x9b\xe5\x87'
-# ASCII码转换为相应字符chr(97)。
-#
-# 字符转换为响应ASCII码ord('a')。
