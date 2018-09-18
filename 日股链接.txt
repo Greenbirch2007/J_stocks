@@ -10,7 +10,11 @@ https://info.finance.yahoo.co.jp/ranking/?kd=1&tm=d&mk=1
 日股长期决算财务数据财务数据   （爬取长线信息）
 https://minkabu.jp/stock/6636/consolidated
 
+日股财务数据  (用scrapy xpath爬取財務數據，代碼用一個４個列表遍歷取的之後拼接出來！)
+上面是蠻力，最好的是爬取到代碼之後，做一個接口，然後轉化爲遍歷id號，再在接口的
+映射網頁上爬取代碼，進行拼接！這是最合理的。所以接口是主要矛盾，不要用其他蠻力了！
 
+https://kabutan.jp/stock/finance?code=3563&mode=k#zaimu_zisseki
 
 
 

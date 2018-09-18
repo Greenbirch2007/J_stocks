@@ -42,18 +42,22 @@ def parse_all_pages_one(html):
 
 
 def parse_stock_note(url):
-    html = call_page(url)
-    selector = etree.HTML(html)
-    code = selector.xpath('//*[@id="stockinf"]/div[1]/div[2]/dl/dt//text()')
-    industry = selector.xpath('//*[@id="stockinf"]/div[1]/div[2]/dl/dd[1]/a//text()')
-    market_value = selector.xpath('//*[@id="rfindex"]/div[2]/div[1]/dl/dd/strong//text()')
-    share_nums = selector.xpath('//*[@id="rfindex"]/div[2]/div[2]/dl/dd/strong//text()')
-    returns_ratio = selector.xpath('//*[@id="rfindex"]/div[2]/div[3]/dl/dd/strong//text()')
-    min_callMoney = selector.xpath('//*[@id="rfindex"]/div[2]/div[9]/dl/dd/strong//text()')
-    stocks_note1 = tuple(code + industry + market_value + share_nums + returns_ratio + min_callMoney)
-    stocks_Note2 = []
-    stocks_Note2.append(stocks_note1)
-    return stocks_Note2
+    try:
+
+        html = call_page(url)
+        selector = etree.HTML(html)
+        code = selector.xpath('//*[@id="stockinf"]/div[1]/div[2]/dl/dt//text()')
+        industry = selector.xpath('//*[@id="stockinf"]/div[1]/div[2]/dl/dd[1]/a//text()')
+        market_value = selector.xpath('//*[@id="rfindex"]/div[2]/div[1]/dl/dd/strong//text()')
+        share_nums = selector.xpath('//*[@id="rfindex"]/div[2]/div[2]/dl/dd/strong//text()')
+        returns_ratio = selector.xpath('//*[@id="rfindex"]/div[2]/div[3]/dl/dd/strong//text()')
+        min_callMoney = selector.xpath('//*[@id="rfindex"]/div[2]/div[9]/dl/dd/strong//text()')
+        stocks_note1 = tuple(code + industry + market_value + share_nums + returns_ratio + min_callMoney)
+        stocks_Note2 = []
+        stocks_Note2.append(stocks_note1)
+        return stocks_Note2
+    except ValueError as e:
+        raise e
 
 
 
@@ -75,7 +79,7 @@ def insertDB(content):
 
 # 3589条有遗漏，不知道是不是因为用了进程池的原因！
 if __name__ == '__main__':
-    pool = Pool(2)
+    pool = Pool(4)
     for offset in range(1,75):
         url = 'https://info.finance.yahoo.co.jp/ranking/?kd=53&tm=d&vl=a&mk=1&p=' + str(offset)
         html = call_page(url)

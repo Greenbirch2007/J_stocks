@@ -1,8 +1,7 @@
 
 import requests
 import re
-from lxml import etree
-import pandas as pd
+# h
 import pymysql
 from multiprocessing import Pool
 
@@ -59,10 +58,10 @@ if __name__ == '__main__':
         # print(offset)
 
 #
-# create table stocks_note1(
+# create table js_infos(
 # id int not null primary key auto_increment,
 # coding varchar(11),
 # location varchar(11),
 # name text,
-# net_assets text
+# net_value text
 # ) engine=InnoDB default charset=utf8;
