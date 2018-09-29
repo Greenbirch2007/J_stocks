@@ -1,7 +1,7 @@
 
 import requests
 import re
-# h
+from config import config_connection
 import pymysql
 from multiprocessing import Pool
 
@@ -37,8 +37,8 @@ def parse_all_pages_one(html):  # 不要一次把正则弄伤了
 def insertDB(content):
     connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='JS',
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
-    cursor = connection.cursor()
-    cursor.executemany('insert into js_infos (coding,location,name,last_price,net_value) values (%s,%s,%s,%s,%s)', content)
+    cur = connection.cursor()
+    cur.executemany('insert into js_infos (coding,location,name,last_price,net_value) values (%s,%s,%s,%s,%s)', content)
     connection.commit()
     connection.close()
     print('向MySQL中添加数据成功！')
