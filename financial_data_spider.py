@@ -7,32 +7,39 @@ import pymysql
 import requests
 from lxml import etree
 
+from selenium import webdriver
 
+driver = webdriver.Chrome()
 from requests.exceptions import RequestException
 
 
-def call_page(url):
-    try:
-        response = requests.get(url)
-        if response.status_code == 200:
-            return response.text
-        return None
-    except RequestException:
-        return None
+def get_first_page(url):
+
+    driver.get(url)
+    time.sleep(3)
+
+    html = driver.page_source
+    return html
 
 
 
 
 
 def parse_stock_note(html):
-    patt1 = re.compile('<td width="36">(.*?)</td>',re.S)
-    items1 = re.findall(patt1,html)
-    patt2 = re.compile('&nbsp;</span> (.*?)</td>',re.S)
-    item2 = re.findall(patt2,html)
-    # big_list = []   # 存储到mysql中必须要是在列表中的元组！
-    # for item in items:
-    #     big_list.append(item)
-    return item2
+
+
+    selector = etree.HTML(html)
+
+    code = selector.xpath('//*[@id="kobetsu_data"]/table[1]/tbody/tr[1]/td/table/tbody/tr/td[1]/text()')
+    return code
+    # patt1 = re.compile('<td width="36">(.*?)</td>',re.S)
+    # items1 = re.findall(patt1,html)
+    # patt2 = re.compile('&nbsp;</span> (.*?)</td>',re.S)
+    # item2 = re.findall(patt2,html)
+    # # big_list = []   # 存储到mysql中必须要是在列表中的元组！
+    # # for item in items:
+    # #     big_list.append(item)
+    # return item2
 
 
 
@@ -74,10 +81,10 @@ def insertDB(content):
 if __name__ == '__main__':
     # for url_str in Python_sel_Mysql():
     url_str = 'https://kabutan.jp/stock/finance?code=3563&mode=k#zaimu_zisseki'
-    html = call_page(url_str)
-    # content = parse_stock_note(html)
-    # print(content)
-    print(html)
+    html = get_first_page(url_str)
+    content = parse_stock_note(html)
+    print(content)
+    # print(html)
 
 
     # insertDB(content)
