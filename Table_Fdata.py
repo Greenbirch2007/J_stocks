@@ -24,14 +24,11 @@ def parse_stock_note(html):
     big_list = []
     selector = etree.HTML(html)
     code = selector.xpath('//*[@id="pro_body"]/center/div[5]/h1/strong/text()')
-    DAT_all = selector.xpath('//*[@id="right_col"]/table/tbody/tr[1]/td/table/tbody/tr[2]/td/text()')
-    DAT_3 = DAT_all[1:4]
-    profits_all = selector.xpath('//*[@id="right_col"]/table/tbody/tr[1]/td/table/tbody/tr[7]/td/text()')
-    profits_3 = profits_all[1:4]
-    code_3 = code * 3
-    for i1,i2,i3 in zip(code_3, DAT_3, profits_3):
-        big_tuple = (i1[-5:-1],i2,i3[:-3])
-        big_list.append(big_tuple)
+    profits= selector.xpath('//*[@id="right_col"]/table/tbody/tr[1]/td/table/tbody/tr[7]/td/text()')
+
+
+    big_tuple = (code[0],profits[1][:-3],profits[2][:-3],profits[3][:-3])
+    big_list.append(big_tuple)
     return big_list
 
 
@@ -65,7 +62,7 @@ def insertDB(content):
 
     cursor = connection.cursor()
     try:
-        cursor.executemany('insert into js_FinData (coding,DAT,profits) values (%s,%s,%s)', content)
+        cursor.executemany('insert into js_FinData1 (coding,d2018,d2017,d2016) values (%s,%s,%s,%s)', content)
         connection.commit()
         connection.close()
         print('向MySQL中添加数据成功！')
@@ -81,16 +78,11 @@ if __name__ == '__main__':
         print(datetime.datetime.now())
 
 
-# create table js_FinData(
-# id int not null primary key auto_increment,
-# coding varchar(8),
-# DAT varchar(11),
-# profits varchar(20)
-# ) engine=InnoDB default charset=utf8;
+
 
 # create table js_FinData1(
 # id int not null primary key auto_increment,
-# coding varchar(8),
+# coding varchar(50),
 # d2018 varchar(20),
 # d2017 varchar(20),
 # d2016 varchar(20)

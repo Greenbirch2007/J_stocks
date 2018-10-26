@@ -5,6 +5,7 @@ from config import config_connection
 import pymysql
 from multiprocessing import Pool
 
+
 #请求页面
 
 def call_page(url):
