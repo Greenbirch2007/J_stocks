@@ -1,22 +1,15 @@
-
-
-
-#可以通过引入外部模块
-# from list_package import list_pac
-# for i in list_pac:
-#     print(len(i))
-#用bs4解析表格数据
-import requests
+# -*- coding:utf-8 -*-
+import datetime
 import re
-import pandas as pd
+import time
+
 import pymysql
-from multiprocessing import Pool
-from bs4 import BeautifulSoup
+import requests
+from lxml import etree
+
+
 from requests.exceptions import RequestException
-import p
 
-
-#请求页面
 
 def call_page(url):
     try:
@@ -26,42 +19,74 @@ def call_page(url):
         return None
     except RequestException:
         return None
-#
-# 标签嵌套结构 嵌套的结构更复杂  尝试用其他方法bs4也不要解析
-# table --> tbody --->tr ---> th
-# table --> tbody --->tr ---> td
-#
-# def parse_financial_page(html):
-#     soup = BeautifulSoup(html,'lxml')
-#     tables = soup.find_all('table')
-#     # tbodys = []
-#     # trs = []
-#     tds = []
-#     for table in tables:
-#         for tbody in table:
-#             # tbodys.append(tbody)
-#             for tr in tbody:
-#                 # trs.append(tr)
-#                 for td in tr:
-#                     tds.append(td.string)
-#     print(tds)
-#
-
-#好久没用正则了，为啥不能批量匹配而值匹配了第一条
-# 重复性的标签，如表格数据，按顺序写正则去匹配是无效的
-def parse_one_page(html):
-    patt = re.compile('<div class="cap1">３ヵ月業績の推移【実績】</div>'+'.*?<td>(.*?)</td>',re.S)
-
-    item = re.findall(patt,html)
-    for i in item:
-        print(i)
-
-# 重复性的标签，如表格数据，按顺序写正则去匹配是无效的,页面中同时有多个表格，糟心啊
-# 爬取不利，就要重新思考数据源
 
 
 
-url = 'https://kabutan.jp/stock/finance?code=3563&mode=k#zaimu_zisseki'
 
-html = call_page(url)
-parse_one_page(html)
+
+def parse_stock_note(html):
+    patt1 = re.compile('<td width="36">(.*?)</td>',re.S)
+    items1 = re.findall(patt1,html)
+    patt2 = re.compile('&nbsp;</span> (.*?)</td>',re.S)
+    item2 = re.findall(patt2,html)
+    # big_list = []   # 存储到mysql中必须要是在列表中的元组！
+    # for item in items:
+    #     big_list.append(item)
+    return item2
+
+
+
+
+
+
+def Python_sel_Mysql():
+    # 使用cursor()方法获取操作游标
+    connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='JS',
+                                 charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+    cur = connection.cursor()
+    #sql 语句
+    for i in range(1,3700):
+        sql = 'select coding from js_infos where id = %s ' % i
+        # #执行sql语句
+        cur.execute(sql)
+        # #获取所有记录列表
+        data = cur.fetchone()
+        num = data['coding']
+        url = 'https://kabutan.jp/stock/finance?code=' + str(num) +'&mode=k#zaimu_zisseki'
+        yield url
+
+
+
+def insertDB(content):
+    connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='JS',
+                                 charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+
+    cursor = connection.cursor()
+    try:
+        cursor.executemany('insert into js_FinData (coding,DAT,profits) values (%s,%s)', content)
+        connection.commit()
+        connection.close()
+        print('向MySQL中添加数据成功！')
+    except TypeError :
+        pass
+
+
+if __name__ == '__main__':
+    # for url_str in Python_sel_Mysql():
+    url_str = 'https://kabutan.jp/stock/finance?code=3563&mode=k#zaimu_zisseki'
+    html = call_page(url_str)
+    # content = parse_stock_note(html)
+    # print(content)
+    print(html)
+
+
+    # insertDB(content)
+    # print(datetime.datetime.now())
+
+
+# create table js_FinData(
+# id int not null primary key auto_increment,
+# coding varchar(8),
+# DAT varchar(11),
+# profits varchar(20)
+# ) engine=InnoDB default charset=utf8;
