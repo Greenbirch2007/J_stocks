@@ -25,9 +25,11 @@ def parse_stock_note(html):
     selector = etree.HTML(html)
     code = selector.xpath('//*[@id="pro_body"]/center/div[5]/h1/strong/text()')
     profits= selector.xpath('//*[@id="right_col"]/table/tbody/tr[1]/td/table/tbody/tr[7]/td/text()')
+    d_2018= "".join(profits[1][:-3].split(","))
+    d_2017= "".join(profits[2][:-3].split(","))
+    d_2016= "".join(profits[3][:-3].split(","))
 
-
-    big_tuple = (code[0],profits[1][:-3],profits[2][:-3],profits[3][:-3])
+    big_tuple = (code[0],d_2018,d_2017,d_2016)
     big_list.append(big_tuple)
     return big_list
 
