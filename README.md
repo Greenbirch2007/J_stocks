@@ -14,4 +14,6 @@
 2018.11.18  (用mysql一条并表查询即可！)
 SELECT js_FinData.*,js_infos_finanData.industry FROM js_FinData right join js_infos_finanData on js_FinData.id = js_infos_finanData.id ;
 
-注意：１．信息不匹配时会出现null，所以直接按照id取匹配
+注意：
+１．信息不匹配时会出现null，所以直接按照id取匹配
+２．　workbench多表导出不友好
