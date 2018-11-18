@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9856dad8-114e-4dc0-8793-9f2718c3e945" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/J_stocks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/J_stocks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datas.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datas.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Table_Fdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/Table_Fdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial_data_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial_data_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +24,12 @@
     <session id="1107863029">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.53" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,7 +38,7 @@
           <entry key="md" value="2" />
           <entry key="null/On_time_DT/ontime_dt" value="12" />
           <entry key="null/j_stocks/js_infos" value="1" />
-          <entry key="py" value="14" />
+          <entry key="py" value="18" />
           <entry key="sql" value="1" />
           <entry key="txt" value="1" />
         </counts>
@@ -46,13 +50,13 @@
           <entry key="MONGO" value="13" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="14" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1" />
-          <entry key="py" value="1321" />
+          <entry key="py" value="2251" />
           <entry key="sql" value="160" />
           <entry key="txt" value="159" />
         </counts>
@@ -62,7 +66,7 @@
           <entry key="DBN-SQL" value="160" />
           <entry key="HTML" value="1" />
           <entry key="PLAIN_TEXT" value="159" />
-          <entry key="Python" value="1321" />
+          <entry key="Python" value="2251" />
         </counts>
       </usages-collector>
     </session>
@@ -110,11 +114,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Table_Fdata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="84" selection-start-line="84" selection-start-column="2" selection-end-line="90" selection-end-column="39" />
+            <state relative-caret-position="-136">
+              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
+                <marker date="1542537114870" expanded="true" signature="738:741" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stcoks_note2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="147" selection-start-line="147" selection-end-line="147" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -160,13 +174,13 @@
         <option value="$PROJECT_DIR$/create_table.sql" />
         <option value="$PROJECT_DIR$/on_time_spider.py" />
         <option value="$PROJECT_DIR$/日股链接.txt" />
-        <option value="$PROJECT_DIR$/stcoks_note2.py" />
         <option value="$USER_HOME$/js_stock/js_stock/items.py" />
         <option value="$USER_HOME$/js_stock/js_stock/main.py" />
         <option value="$USER_HOME$/js_stock/js_stock/settings.py" />
         <option value="$USER_HOME$/js_stock/js_stock/pipelines.py" />
         <option value="$USER_HOME$/js_stock/js_stock/spiders/js_note.py" />
         <option value="$PROJECT_DIR$/stocks_note1.py" />
+        <option value="$PROJECT_DIR$/stcoks_note2.py" />
         <option value="$PROJECT_DIR$/financial_data_spider.py" />
         <option value="$PROJECT_DIR$/Table_Fdata.py" />
       </list>
@@ -190,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,6 +215,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,10 +355,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Table_Fdata" />
+        <item itemvalue="Python.stcoks_note2" />
+        <item itemvalue="Python.stocks_note1" />
         <item itemvalue="Python.financial_data_spider" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.stocks_note1" />
-        <item itemvalue="Python.stcoks_note2" />
       </list>
     </recent_temporary>
   </component>
@@ -362,15 +376,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="850" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="718" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23288637" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23257576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33193862" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33162394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -464,36 +479,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stcoks_note2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="71" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/stocks_note1.py">
+    <entry file="file://$PROJECT_DIR$/financial_data_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-85">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financial_data_spider.py">
+    <entry file="file://$PROJECT_DIR$/stocks_note1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="41" />
+        <state relative-caret-position="453">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="65" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stcoks_note2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="147" selection-start-line="147" selection-end-line="147" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Table_Fdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="84" selection-start-line="84" selection-start-column="2" selection-end-line="90" selection-end-column="39" />
+        <state relative-caret-position="-136">
+          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
+            <marker date="1542537114870" expanded="true" signature="738:741" ph="..." />
           </folding>
         </state>
       </provider>

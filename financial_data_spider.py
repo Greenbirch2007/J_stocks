@@ -40,7 +40,7 @@ def parse_stock_note(html):
 
 
 
-
+# 尝试在这个模块提取代码和板块，用代码去拼接个股链接，同时往大ｌist传入个股
 def Python_sel_Mysql():
     # 使用cursor()方法获取操作游标
     connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='JS',
