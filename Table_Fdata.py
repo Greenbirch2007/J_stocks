@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
 
 
-
+#
 # create table js_FinData(
 # id int not null primary key auto_increment,
 # coding varchar(50),

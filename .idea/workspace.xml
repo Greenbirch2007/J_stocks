@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9856dad8-114e-4dc0-8793-9f2718c3e945" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Table_Fdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/Table_Fdata.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +21,13 @@
     <session id="1107863029">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.53" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,7 +36,7 @@
           <entry key="md" value="2" />
           <entry key="null/On_time_DT/ontime_dt" value="12" />
           <entry key="null/j_stocks/js_infos" value="1" />
-          <entry key="py" value="18" />
+          <entry key="py" value="19" />
           <entry key="sql" value="1" />
           <entry key="txt" value="1" />
         </counts>
@@ -46,7 +48,7 @@
           <entry key="MONGO" value="13" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="18" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -110,11 +112,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Table_Fdata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="86" column="26" selection-start-line="86" selection-end-line="87" />
+            <state relative-caret-position="55">
+              <caret line="61" column="64" lean-forward="true" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
-                <marker date="1542537240697" expanded="true" signature="738:741" ph="..." />
               </folding>
             </state>
           </provider>
@@ -123,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stcoks_note2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="147" selection-start-line="147" selection-end-line="147" selection-end-column="22" />
+            <state relative-caret-position="89">
+              <caret line="144" selection-start-line="144" selection-start-column="2" selection-end-line="154" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -175,9 +176,9 @@
         <option value="$USER_HOME$/js_stock/js_stock/settings.py" />
         <option value="$USER_HOME$/js_stock/js_stock/pipelines.py" />
         <option value="$USER_HOME$/js_stock/js_stock/spiders/js_note.py" />
+        <option value="$PROJECT_DIR$/financial_data_spider.py" />
         <option value="$PROJECT_DIR$/stocks_note1.py" />
         <option value="$PROJECT_DIR$/stcoks_note2.py" />
-        <option value="$PROJECT_DIR$/financial_data_spider.py" />
         <option value="$PROJECT_DIR$/Table_Fdata.py" />
       </list>
     </option>
@@ -200,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,12 +224,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Recoding_Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -384,8 +385,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="718" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23257576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23257576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
@@ -497,25 +499,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stocks_note1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="65" selection-end-column="39" />
+        <state relative-caret-position="113">
+          <caret line="58" selection-start-line="58" selection-start-column="2" selection-end-line="65" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stcoks_note2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="147" selection-start-line="147" selection-end-line="147" selection-end-column="22" />
+        <state relative-caret-position="89">
+          <caret line="144" selection-start-line="144" selection-start-column="2" selection-end-line="154" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Table_Fdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="86" column="26" selection-start-line="86" selection-end-line="87" />
+        <state relative-caret-position="55">
+          <caret line="61" column="64" lean-forward="true" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <marker date="1542537240697" expanded="true" signature="738:741" ph="..." />
           </folding>
         </state>
       </provider>
