@@ -43,7 +43,7 @@ def insertDB(content):
 
     cursor = connection.cursor()
     try:
-        cursor.executemany('insert into js_FinData (coding,industry,d2018,d2017,d2016) values (%s,%s,%s,%s,%s)', content)
+        cursor.executemany('insert into js_FinData (coding,d2018,d2017,d2016，industry) values (%s,%s,%s,%s,%s)', content)
         connection.commit()
         connection.close()
         print('向MySQL中添加数据成功！')
@@ -88,12 +88,12 @@ if __name__ == '__main__':
 
 
 
-#
+# 因为板块数据是最后嵌套进去的，所以要保持，１．数据库表结构，２．解析整理后的数据结构　３．　插入的字段结构　三者之间都要保持一致
 # create table js_FinData(
 # id int not null primary key auto_increment,
-# coding varchar(50),
 # industry varchar(8),
 # d2018 varchar(20),
 # d2017 varchar(20),
-# d2016 varchar(20)
+# d2016 varchar(20),
+# coding varchar(50)
 # ) engine=InnoDB  charset=utf8;
