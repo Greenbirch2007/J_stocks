@@ -25,25 +25,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>日本郵政(株)</find>
-      <find>日本航空(株)</find>
-      <find>6178</find>
-      <find>発行済株式数</find>
-      <find>5,413,50</find>
-      <find>4.16</find>
-      <find>22,298.08</find>
-      <find>3563</find>
-      <find>2015.09</find>
-      <find>2015</find>
-      <find>&lt;div class=&quot;caution&quot; style=&quot;text-align:left;font-size:10.5px;margin:10px 10px 0 10px;&quot; &gt;</find>
-      <find>&amp;nbsp;&lt;/span&gt;</find>
-      <find>&amp;nbsp;&lt;/span&gt; (.*?)&lt;/td&gt;</find>
-      <find>&lt;/td&gt;+.*?&lt;td&gt;(.*?)&lt;/td&gt;</find>
-      <find>&lt;tr&gt;(.*?)&lt;/tr&gt;</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
