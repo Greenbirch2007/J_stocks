@@ -17,6 +17,7 @@ if __name__=='__main__':
     for coding in pool_data:
         url = 'https://chart.yahoo.co.jp/?code='+str(coding)+'.T&tm=1y&type=c&log=off&size=m&over=m65,m130,s&add=v&comp='
         urllib.request.urlretrieve(url, '/home/w/js_pic/%s.jpg' % coding)
+        print(url)
     print("图片下载完毕")
 
 
