@@ -57,7 +57,7 @@ if __name__ == '__main__':
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cur = connection.cursor()
     #sql 语句
-    for num in range(1,3600):
+    for num in range(1200,3686):
         big_list = []
         sql = 'select coding from js_infos where id = %s ' % num
         # #执行sql语句

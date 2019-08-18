@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9856dad8-114e-4dc0-8793-9f2718c3e945" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/J_stocks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/J_stocks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Table_Fdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/Table_Fdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005ZkzAJly1g0ron98z6xj30l30n577k.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/005ZkzAJly1g0ron98z6xj30l30n577k.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005ZkzAJly1g0rondyebzj310n0kqtbr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/005ZkzAJly1g0rondyebzj310n0kqtbr.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Table_Fdata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial_data_spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/js_stock/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/on_time_spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stcoks_note2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks_note1.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,124 +24,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/J_stocks$stcoks_note2.coverage" NAME="stcoks_note2 Coverage Results" MODIFIED="1537241319715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/J_stocks$main.coverage" NAME="main Coverage Results" MODIFIED="1537251238040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/js_stock/js_stock" />
+    <SUITE FILE_PATH="coverage/J_stocks$main.coverage" NAME="main Coverage Results" MODIFIED="1537251238040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../js_stock/js_stock" />
     <SUITE FILE_PATH="coverage/J_stocks$on_time_spider.coverage" NAME="on_time_spider Coverage Results" MODIFIED="1534127876108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/J_stocks$stocks_note1.coverage" NAME="stocks_note1 Coverage Results" MODIFIED="1537247065996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1107863029">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.53" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="1" />
-          <entry key="md" value="2" />
-          <entry key="null/On_time_DT/ontime_dt" value="12" />
-          <entry key="null/j_stocks/js_infos" value="1" />
-          <entry key="py" value="19" />
-          <entry key="sql" value="1" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="DBN-SQL" value="1" />
-          <entry key="HTML" value="1" />
-          <entry key="MONGO" value="13" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="1" />
-          <entry key="py" value="2251" />
-          <entry key="sql" value="160" />
-          <entry key="txt" value="159" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="DBN-SQL" value="160" />
-          <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="159" />
-          <entry key="Python" value="2251" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1865991610">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="1" />
-          <entry key="py" value="11" />
-          <entry key="sql" value="1" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="11" />
-          <entry key="SQL" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="1351" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="1351" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Table_Fdata.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="61" column="64" lean-forward="true" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
-              <folding>
-                <element signature="e#23#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stcoks_note2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="144" selection-start-line="144" selection-start-column="2" selection-end-line="154" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,74 +58,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/stocks_note.py" />
-        <option value="$PROJECT_DIR$/all_stocks_spider.py" />
-        <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/create_table.sql" />
-        <option value="$PROJECT_DIR$/on_time_spider.py" />
-        <option value="$PROJECT_DIR$/日股链接.txt" />
-        <option value="$USER_HOME$/js_stock/js_stock/items.py" />
-        <option value="$USER_HOME$/js_stock/js_stock/main.py" />
-        <option value="$USER_HOME$/js_stock/js_stock/settings.py" />
-        <option value="$USER_HOME$/js_stock/js_stock/pipelines.py" />
-        <option value="$USER_HOME$/js_stock/js_stock/spiders/js_note.py" />
-        <option value="$PROJECT_DIR$/financial_data_spider.py" />
-        <option value="$PROJECT_DIR$/stocks_note1.py" />
-        <option value="$PROJECT_DIR$/stcoks_note2.py" />
-        <option value="$PROJECT_DIR$/Table_Fdata.py" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="62" />
-    <option name="y" value="51" />
-    <option name="width" value="1287" />
-    <option name="height" value="814" />
-  </component>
+  <component name="ProjectId" id="1PXrQWahSqAPomSCh4SqayHvQq2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="J_stocks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J_stocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J_stocks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J_stocks" type="462c0819:PsiDirectoryNode" />
-              <item name="js_stock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J_stocks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J_stocks" type="462c0819:PsiDirectoryNode" />
-              <item name="js_stock" type="462c0819:PsiDirectoryNode" />
-              <item name="js_stock" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Table_Fdata">
+  <component name="RunManager" selected="Python.js_S_pool">
     <configuration name="Table_Fdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="financial_data_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="js_S_pool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,12 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/股票池的处理" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/financial_data_spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/股票池的处理/js_S_pool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,20 +127,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="js_stock" />
+    <configuration name="mysql_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../js_stock/js_stock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/处理mysql的python脚本" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../js_stock/js_stock/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/处理mysql的python脚本/mysql_python.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -356,17 +195,17 @@
     <list>
       <item itemvalue="Python.stocks_note1" />
       <item itemvalue="Python.stcoks_note2" />
-      <item itemvalue="Python.financial_data_spider" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.Table_Fdata" />
+      <item itemvalue="Python.mysql_python" />
+      <item itemvalue="Python.js_S_pool" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.js_S_pool" />
+        <item itemvalue="Python.mysql_python" />
         <item itemvalue="Python.Table_Fdata" />
         <item itemvalue="Python.stcoks_note2" />
         <item itemvalue="Python.stocks_note1" />
-        <item itemvalue="Python.financial_data_spider" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -383,143 +222,20 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="718" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23257576" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="DB Browser" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33162394" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31799164" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32991454" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.32954547" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="5" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23333333" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="DB Browser" order="3" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.31150442" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.38184437" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info active="true" anchor="right" id="Mongo Explorer" order="5" visible="true" weight="0.32954547" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stocks_note.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/js_stock/js_stock/settings.py" />
-    <entry file="file://$USER_HOME$/js_stock/js_stock/items.py" />
-    <entry file="file://$USER_HOME$/js_stock/js_stock/main.py" />
-    <entry file="file://$USER_HOME$/js_stock/js_stock/pipelines.py" />
-    <entry file="file://$USER_HOME$/Python3.6_BIGOEN/lib/python3.6/site-packages/scrapy/http/request/__init__.py" />
-    <entry file="file://$USER_HOME$/js_stock/js_stock/spiders/js_note.py" />
-    <entry file="file://$PROJECT_DIR$/list_package.py" />
-    <entry file="file://$PROJECT_DIR$/all_stocks_spider.py" />
-    <entry file="file://$PROJECT_DIR$/on_time_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/日股链接.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financial_data_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stocks_note1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="58" selection-start-line="58" selection-start-column="2" selection-end-line="65" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stcoks_note2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="144" selection-start-line="144" selection-start-column="2" selection-end-line="154" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Table_Fdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="61" column="64" lean-forward="true" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

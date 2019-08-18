@@ -4,7 +4,7 @@ import re
 from config import config_connection
 import pymysql
 from multiprocessing import Pool
-
+from requests.exceptions import RequestException
 
 #请求页面
 
