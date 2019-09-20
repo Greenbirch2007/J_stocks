@@ -1,0 +1,24 @@
+
+片假名公司名
+
+//*[@id="contents_start"]/div/div/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td
+
+
+汉字 公司名
+//*[@id="contents_start"]/div/div/table/tbody/tr/td[1]/div/table/tbody/tr[2]/td
+
+
+
+
+地址
+
+//*[@id="contents_start"]/div/div/table/tbody/tr/td[1]/div/table/tbody/tr[3]/td/text()[1]
+
+
+网址
+
+//*[@id="contents_start"]/div/div/table/tbody/tr/td[1]/div/table/tbody/tr[3]/td/a
+
+
+
+
