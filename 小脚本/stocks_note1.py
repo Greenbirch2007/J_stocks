@@ -1,7 +1,6 @@
 
 import requests
 import re
-from config import config_connection
 import pymysql
 from multiprocessing import Pool
 from requests.exceptions import RequestException
@@ -47,7 +46,7 @@ def insertDB(content):
 
 
 if __name__ == '__main__':
-    pool = Pool(4)
+
     for offset in range(1,75):
         url = 'https://info.finance.yahoo.co.jp/ranking/?kd=53&tm=d&vl=a&mk=1&p=' + str(offset)
         html = call_page(url)

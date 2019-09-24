@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9856dad8-114e-4dc0-8793-9f2718c3e945" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/处理mysql的python脚本/tt.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池sql.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/处理mysql的python脚本/mysql_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/处理mysql的python脚本/mysql_python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/小脚本/stocks_note1.py" beforeDir="false" afterPath="$PROJECT_DIR$/小脚本/stocks_note1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/Homepage_pic.py" beforeDir="false" afterPath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/Homepage_pic.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Company_location">
+  <component name="RunManager" selected="Python.M_ps">
     <configuration name="Company_location" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Table_Fdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Homepage_pic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +86,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/日本券商分析(日本证券业协会)" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Table_Fdata.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/日本券商分析(日本证券业协会)/Homepage_pic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="M_ps" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="J_stocks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/用价差扫描市场(sql+py)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用价差扫描市场(sql+py)/M_ps.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,42 +162,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stcoks_note2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="J_stocks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stcoks_note2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.stcoks_note2" />
-      <item itemvalue="Python.Table_Fdata" />
       <item itemvalue="Python.mysql_python" />
       <item itemvalue="Python.js_S_pool" />
       <item itemvalue="Python.Company_location" />
+      <item itemvalue="Python.Homepage_pic" />
+      <item itemvalue="Python.M_ps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.M_ps" />
+        <item itemvalue="Python.Homepage_pic" />
         <item itemvalue="Python.Company_location" />
         <item itemvalue="Python.js_S_pool" />
         <item itemvalue="Python.mysql_python" />
-        <item itemvalue="Python.Table_Fdata" />
-        <item itemvalue="Python.stcoks_note2" />
       </list>
     </recent_temporary>
   </component>
