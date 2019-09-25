@@ -38,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/用价差扫描市场(sql+py)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
@@ -160,11 +160,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.mysql_python" />
-      <item itemvalue="Python.js_S_pool" />
       <item itemvalue="Python.Company_location" />
       <item itemvalue="Python.Homepage_pic" />
       <item itemvalue="Python.M_ps" />
+      <item itemvalue="Python.js_S_pool" />
+      <item itemvalue="Python.mysql_python" />
     </list>
     <recent_temporary>
       <list>
