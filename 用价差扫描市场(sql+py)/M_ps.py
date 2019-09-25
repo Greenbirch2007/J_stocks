@@ -60,7 +60,7 @@ def insertDB(content):
     connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='JS',
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cur = connection.cursor()
-    cur.executemany('insert into js_p0924 (code,name,f_price) values (%s,%s,%s)', content)
+    cur.executemany('insert into js_p0929 (code,name,f_price) values (%s,%s,%s)', content)
     connection.commit()
     connection.close()
     print('向MySQL中添加数据成功！')
@@ -92,4 +92,4 @@ if __name__ == '__main__':
 #　并表查询　
 # select js_p0929.name, js_p0929.f_price as a_p ,(js_p0929.f_price -js_p0924.f_price)/js_p0924.f_price pr,
 # js_infos_finanData.coding, js_infos_finanData.industry,js_infos_finanData.market_value
-# from  js_p0924,js_p0929,js_infos_finanData  where js_p0924.code=js_p0929.code  and js_p0929.code =js_infos_finanData.coding;
+# from  js_p0924,js_p0929,js_infos_finanData  where js_p0924.code=js_p0929.code  and js_p0929.code =js_infos_finanData.coding order by pr desc limit 30;
