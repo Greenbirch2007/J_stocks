@@ -11,12 +11,17 @@ select * from
 4. 按照收益率排序　前５０个个股！
 
 ＃先计算出收益率
-select js_p0929.name, js_p0929.f_price as a_p ,(js_p0929.f_price -js_p0924.f_price)/js_p0924.f_price pr,
+
+
+select js_p0929.name, js_p0929.f_price as a_p ,CONCAT(TRUNCATE((js_p0929.f_price -js_p0924.f_price)/js_p0924.f_price*100,2),'%') as pr,
 js_infos_finanData.coding, js_infos_finanData.industry,js_infos_finanData.market_value 
 from  js_p0924,js_p0929,js_infos_finanData  where js_p0924.code=js_p0929.code  and js_p0929.code =js_infos_finanData.coding order by pr desc limit 30;
 
 
 
+
+保留收益率最后两位小数
+CONCAT(TRUNCATE((js_p0929.f_price -js_p0924.f_price)/js_p0924.f_price*100,2),'%') as pr
 
 
 
