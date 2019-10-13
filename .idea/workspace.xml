@@ -3,6 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="9856dad8-114e-4dc0-8793-9f2718c3e945" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/js_stock/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/处理mysql的python脚本/mysql_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/处理mysql的python脚本/mysql_python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/小脚本/Company_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/小脚本/Company_location.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/.idea/日本券商分析(日本证券业协会).iml" beforeDir="false" afterPath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/.idea/日本券商分析(日本证券业协会).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/Homepage_pic.py" beforeDir="false" afterPath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/Homepage_pic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/Run_hp.py" beforeDir="false" afterPath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/Run_hp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/xpath脚本.txt" beforeDir="false" afterPath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/xpath脚本.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/日本券商分析(日本证券业协会).xls" beforeDir="false" afterPath="$PROJECT_DIR$/日本券商分析(日本证券业协会)/日本券商分析(日本证券业协会).xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/用价差扫描市场(sql+py).iml" beforeDir="false" afterPath="$PROJECT_DIR$/用价差扫描市场(sql+py)/.idea/用价差扫描市场(sql+py).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/用价差扫描市场(sql+py)/M_ps.py" beforeDir="false" afterPath="$PROJECT_DIR$/用价差扫描市场(sql+py)/M_ps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/用价差扫描市场(sql+py)/并表查询.txt" beforeDir="false" afterPath="$PROJECT_DIR$/用价差扫描市场(sql+py)/并表查询.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/js_S_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/js_S_pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/股票池sql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/股票池sql.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/股票池代码整理文档.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/股票池代码整理文档.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yahoo_JAPAN_spiders" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
