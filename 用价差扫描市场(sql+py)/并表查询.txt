@@ -13,15 +13,15 @@ select * from
 ＃先计算出收益率
 
 
-select js_p0929.name, js_p0929.f_price as a_p ,CONCAT(TRUNCATE((js_p0929.f_price -js_p0924.f_price)/js_p0924.f_price*100,2),'%') as pr,
+select js_p1109.name, js_p1109.f_price as a_p ,CONCAT(TRUNCATE((js_p1109.f_price -js_p0924.f_price)/js_p0924.f_price*100,2),'%') as pr,
 js_infos_finanData.coding, js_infos_finanData.industry,js_infos_finanData.market_value 
-from  js_p0924,js_p0929,js_infos_finanData  where js_p0924.code=js_p0929.code  and js_p0929.code =js_infos_finanData.coding order by pr desc limit 30;
+from  js_p0924,js_p1109,js_infos_finanData  where js_p0924.code=js_p1109.code  and js_p1109.code =js_infos_finanData.coding order by pr desc limit 30;
 
 
 
 
 保留收益率最后两位小数
-CONCAT(TRUNCATE((js_p0929.f_price -js_p0924.f_price)/js_p0924.f_price*100,2),'%') as pr
+CONCAT(TRUNCATE((js_p1109.f_price -js_p0924.f_price)/js_p0924.f_price*100,2),'%') as pr
 
 
 
