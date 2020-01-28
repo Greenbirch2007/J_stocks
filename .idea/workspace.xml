@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9856dad8-114e-4dc0-8793-9f2718c3e945" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/用价差扫描市场(sql+py)/M_ps.py" beforeDir="false" afterPath="$PROJECT_DIR$/用价差扫描市场(sql+py)/M_ps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/小脚本/Table_Fdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/小脚本/Table_Fdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/js_S_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/js_S_pool.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/用价差扫描市场(sql+py)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
@@ -54,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.M_ps">
+  <component name="RunManager" selected="Python.js_S_pool">
     <configuration name="Company_location" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,6 +119,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Table_Fdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="J_stocks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/小脚本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/小脚本/Table_Fdata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="js_S_pool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,41 +161,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="J_stocks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/处理mysql的python脚本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/处理mysql的python脚本/mysql_python.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.Company_location" />
       <item itemvalue="Python.Homepage_pic" />
       <item itemvalue="Python.M_ps" />
       <item itemvalue="Python.js_S_pool" />
-      <item itemvalue="Python.mysql_python" />
+      <item itemvalue="Python.Table_Fdata" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.js_S_pool" />
+        <item itemvalue="Python.Table_Fdata" />
         <item itemvalue="Python.M_ps" />
         <item itemvalue="Python.Homepage_pic" />
         <item itemvalue="Python.Company_location" />
-        <item itemvalue="Python.js_S_pool" />
-        <item itemvalue="Python.mysql_python" />
       </list>
     </recent_temporary>
   </component>

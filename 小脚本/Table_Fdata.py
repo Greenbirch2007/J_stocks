@@ -8,7 +8,7 @@ import pymysql
 from lxml import etree
 from selenium import webdriver
 
-driver = webdriver.Chrome()
+
 
 
 def get_first_page(url):
@@ -56,8 +56,13 @@ if __name__ == '__main__':
     connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123456', db='JS',
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cur = connection.cursor()
+
+    options = webdriver.ChromeOptions()
+    options.add_argument("--no-sandbox")
+    driver = webdriver.Chrome("/usr/bin/chromedriver", chrome_options=options)
+
     #sql 语句
-    for num in range(1200,3686):
+    for num in range(1169,3686):
         big_list = []
         sql = 'select coding from js_infos where id = %s ' % num
         # #执行sql语句
