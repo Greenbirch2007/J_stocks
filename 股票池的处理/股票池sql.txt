@@ -1,11 +1,14 @@
-select coding,industry,title,market_value,returns_ratio from js_infos_finanData where coding in(9984,6301,5401,7974,4004,3436,7731,5301,6857,6383,6481,9104,6976,9706,6417,6135,6703,4553,3244,4819,7518,4921,9302,8111,8892,6754,2497,6235,6101,7718,2168,7172,1871,2146,6332,5331,1419,5310,6951,3315,3445,8052,4996,5288,1518,5357,9519,6480,6814,3388,2003,9534,6590,6125,3053,2491,7609,2737,9359,3452,5218,6144,3457,3501,6947,3843,2325,6569,3245,6706,6513,9416,7721,3482,6155,3182,6292,3250,6544,7725,6158,9880,9270,6639,6161,9658,3926,5217,3300,7887,4238,5356,3150,6467,2114,6142,7509,5271,7227,7726,9629,3990,9797,6191,8885,3655,9696,3983,4776,3916,7522,6998,8163,6855,8023)   order by market_value desc;
+select coding,industry,title,market_value,returns_ratio from js_infos_finanData where coding in  
+(3267,3655,4783,5271,5363,6121,6417,6513,6815,6998,7172,7537,7731,8699,9828) order by market_value desc;
 
 
-select title,coding,industry,market_value,returns_ratio from js_infos_finanData where coding in(6703,6857,3244,7974,1419,3245,9658,6957,7725,9629,5217) order by returns_ratio desc;
+select title,coding,industry,market_value,returns_ratio from js_infos_finanData where coding in(3267,3655,5271,5363,6121,6417,6513,6815,6998,7172,7537,7731,8699)
+ order by returns_ratio desc;
 
 
 
-select * from js_infos_finanData where coding in(6703,6857,3244,7974,1419,3245,9658,6957,7725,9629,5217) order by market_value desc;
+select * from js_infos_finanData where coding in(3267,3655,4783,5271,5363,6121,6417,6513,6815,6998,7172,7537,7731,8699,9828)
+ order by market_value desc;
 
 
 # 在name字段内提取代码的的excel语句
