@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9856dad8-114e-4dc0-8793-9f2718c3e945" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/J_stocks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/J_stocks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/新建文本.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Findata_industry.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Findata_industry.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/股票池的处理/js_S_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/js_S_pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/股票池代码整理文档.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/股票池代码整理文档.xlsx" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,23 +39,17 @@
   </component>
   <component name="ProjectId" id="1PXrQWahSqAPomSCh4SqayHvQq2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/股票池月度监控" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunManager" selected="Python.js_S_pool">
     <configuration name="Company_location" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -165,8 +161,8 @@
       <item itemvalue="Python.Company_location" />
       <item itemvalue="Python.Homepage_pic" />
       <item itemvalue="Python.M_ps" />
-      <item itemvalue="Python.js_S_pool" />
       <item itemvalue="Python.Table_Fdata" />
+      <item itemvalue="Python.js_S_pool" />
     </list>
     <recent_temporary>
       <list>
@@ -199,12 +195,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="470" y="109" key="FileChooserDialogImpl" timestamp="1588074202505">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="470" y="109" key="FileChooserDialogImpl/0.0.1366.714@0.0.1366.714" timestamp="1588074202505" />
+    <state x="0" y="0" width="1366" height="714" key="SettingsEditor" timestamp="1588074191975">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="0" y="0" width="1366" height="714" key="SettingsEditor/0.0.1366.714@0.0.1366.714" timestamp="1588074191975" />
   </component>
 </project>
