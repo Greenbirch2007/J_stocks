@@ -165,4 +165,4 @@ if __name__ == '__main__':
 
 
 
-# create table sp_LJ(id int not null primary key auto_increment, J3258  float,J6861  float,J4182  float,J5706  float,J8035  float,J3003  float,J5713  float,J4004  float,J9983  float,J1824  float,J6632  float,J5702  float,J9766  float,J9684  float,J6268  float,J6058  float,J8909  float,J7806  float,J2127  float,J8032  float,J3092  float,J2928  float,J4506  float,J4921  float ) engine=InnoDB  charset=utf8;
+ # create table sp_LJ(id int not null primary key auto_increment, J3258  float,J6861  float,J4182  float,J5706  float,J8035  float,J3003  float,J5713  float,J4004  float,J9983  float,J1824  float,J6632  float,J5702  float,J9766  float,J9684  float,J6268  float,J6058  float,J8909  float,J7806  float,J2127  float,J8032  float,J3092  float,J2928  float,J4506  float,J4921  float,LastTime timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ) engine=InnoDB  charset=utf8;
