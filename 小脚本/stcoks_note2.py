@@ -12,15 +12,13 @@ import time
 from lxml import etree
 import requests
 import re
-from lxml import etree
 import datetime
 import pymysql
 from multiprocessing import Pool
 #特殊异常要先引入
 from requests.exceptions import RequestException
 #请求页面 #反爬虫升级 ，js渲染，selenium
-from selenium import webdriver
-from lxml import etree
+
 import datetime
 
 def call_page(url):
@@ -87,7 +85,9 @@ def Python_sel_Mysql():
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cur = connection.cursor()
     #sql 语句
-    for i in range(3591,3700):
+    # s_pool = ["8909","3092","4004","4182","4506","6861","8035"]
+    # for Num in s_pool:
+    for i in range(1,3700):
         sql = 'select coding from js_infos where id = %s ' % i
         # #执行sql语句
         cur.execute(sql)
