@@ -34,7 +34,8 @@ if __name__ =='__main__':
         data = cur.fetchone()
         big_list.append(data)
     print(big_list)
+    l_path = os.getcwd()
     head = ['industry','name',"d2018","d2017","d2016"]
-    csv_dict_write('/home/w/js_data.csv',head,big_list)
+    csv_dict_write('{0}/js_data.csv'.format(l_path),head,big_list)
     print("数据导出完成～")
 
