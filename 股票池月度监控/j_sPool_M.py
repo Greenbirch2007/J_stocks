@@ -132,7 +132,7 @@ if __name__ == '__main__':
 
 
     for it in jl:
-        url = "https://minkabu.jp/stock/{0}/analysis?order=1&sc_id=4&tc_id=ya0j0001".format(it)
+        url = 'https://minkabu.jp/stock/{0}'.format(it)
         print(url)
         jsp = JSPool_M(url)# 这里把请求和解析都进行了处理
         jsp.page_parse_()
