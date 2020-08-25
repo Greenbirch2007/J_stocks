@@ -1,8 +1,8 @@
-select coding,industry,title,market_value,returns_ratio from js_infos_finanData where coding in  
-(3267,3655,4783,5271,5363,6121,6417,6513,6815,6998,7172,7537,7731,8699,9828) order by market_value desc;
+﻿select coding,industry,title,market_value,returns_ratio from js_infos_finanData where coding in  
+(9629，4832，5922，6368，6920，2685，8747，3941，7518，2130，9873，4848，1946，6035，5440，9742，3254，7004，3186，3769，6754，3479，4996，8111，1909，1419，1885，6677，5410，9889，4483，2445，3107，9783，4519，8356，8524) order by market_value desc;
 
 
-select title,coding,industry,market_value,returns_ratio from js_infos_finanData where coding in(3267,3655,5271,5363,6121,6417,6513,6815,6998,7172,7537,7731,8699)
+select title,coding,industry,market_value,returns_ratio from js_infos_finanData where coding in (3267,3655,4783,5271,5363,6121,6417,6513,6815,6998,7172,7537,7731,8699,9828)
  order by returns_ratio desc;
 
 
@@ -13,6 +13,7 @@ select * from js_infos_finanData where coding in(3267,3655,4783,5271,5363,6121,6
 
 # 在name字段内提取代码的的excel语句
 =MID(B2,LEN(B2)-4,4)
+
 
 
 

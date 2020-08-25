@@ -126,7 +126,7 @@ def insertDB(content):
 
 
 if __name__ == '__main__':
-    jl = [3258, 6861, 4182, 5706, 8035, 3003, 5713, 4004, 9983, 1824, 6632, 5702, 9766, 9684, 6268, 6058, 8909, 7806,2127, 8032, 3092, 2928, 4506, 4921]
+    jl = [1419,2685,3186,3479,4483,4519,4996,5410,5440,5922,6035,6754,6920,7004,7518,8111,8356]
 
     big_list = []
 
@@ -165,4 +165,4 @@ if __name__ == '__main__':
 
 
 
- # create table sp_LJ(id int not null primary key auto_increment, J3258  float,J6861  float,J4182  float,J5706  float,J8035  float,J3003  float,J5713  float,J4004  float,J9983  float,J1824  float,J6632  float,J5702  float,J9766  float,J9684  float,J6268  float,J6058  float,J8909  float,J7806  float,J2127  float,J8032  float,J3092  float,J2928  float,J4506  float,J4921  float,LastTime timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ) engine=InnoDB  charset=utf8;
+ # create table sp_LJ(id int not null primary key auto_increment, J1419 FLOAT,J2685 FLOAT,J3186 FLOAT,J3479 FLOAT,J4483 FLOAT,J4519 FLOAT,J4996 FLOAT,J5410 FLOAT,J5440 FLOAT,J5922 FLOAT,J6035 FLOAT,J6754 FLOAT,J6920 FLOAT,J7004 FLOAT,J7518 FLOAT,J8111 FLOAT,J8356 FLOAT,LastTime timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ) engine=InnoDB  charset=utf8;

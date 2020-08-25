@@ -3,10 +3,61 @@
   <component name="ChangeListManager">
     <list default="true" id="9856dad8-114e-4dc0-8793-9f2718c3e945" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/J_stocks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/J_stocks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Findata_industry.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Findata_industry.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepinScreenshot_select-area_20200616124437.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Findata_industry.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/.idea/js_stock.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/spiders/js_note.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/处理mysql的python脚本/mysql_python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/小脚本/Table_Fdata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/小脚本/financial_data_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/小脚本/financial_data_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/小脚本/stcoks_note2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/小脚本/stocks_note1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池月度监控/2020.4.28监控个股.xls" beforeDir="false" afterPath="$PROJECT_DIR$/股票池月度监控/2020.4.28监控个股.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池月度监控/j_sPool_M.py" beforeDir="false" afterPath="$PROJECT_DIR$/股票池月度监控/j_sPool_M.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/1824.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/2020.1.29 JS 股票池.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/2020.4.30JS 股票池.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/2127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/2928.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/3003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/3092.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/3258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/4004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/4182.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/4506.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/4921.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/5702.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/5706.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/5713.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/6058.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/6268.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/6632.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/6861.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/7806.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/8032.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/8035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/8909.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/9684.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/9766.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/9983.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/股票池的处理/js_S_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/js_S_pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池的处理/股票池sql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/股票池sql.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/股票池的处理/股票池代码整理文档.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/股票池代码整理文档.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +99,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/股票池月度监控" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.js_S_pool">
-    <configuration name="Company_location" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.cronb_jspMons">
+    <configuration name="cronb_jspMons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +111,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/小脚本" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/股票池月度监控" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/小脚本/Company_location.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/股票池月度监控/cronb_jspMons.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Homepage_pic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="j_sPool_M" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/日本券商分析(日本证券业协会)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/股票池月度监控" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/日本券商分析(日本证券业协会)/Homepage_pic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/股票池月度监控/j_sPool_M.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,49 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="M_ps" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="J_stocks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/用价差扫描市场(sql+py)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用价差扫描市场(sql+py)/M_ps.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Table_Fdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="J_stocks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/小脚本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/小脚本/Table_Fdata.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="js_S_pool" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="js_S_pool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,20 +166,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mysql_python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="J_stocks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/处理mysql的python脚本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/处理mysql的python脚本/mysql_python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysql_python_marketV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="J_stocks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/处理mysql的python脚本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/处理mysql的python脚本/mysql_python_marketV.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Company_location" />
-      <item itemvalue="Python.Homepage_pic" />
-      <item itemvalue="Python.M_ps" />
-      <item itemvalue="Python.Table_Fdata" />
+      <item itemvalue="Python.mysql_python" />
+      <item itemvalue="Python.mysql_python_marketV" />
       <item itemvalue="Python.js_S_pool" />
+      <item itemvalue="Python.j_sPool_M" />
+      <item itemvalue="Python.cronb_jspMons" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cronb_jspMons" />
+        <item itemvalue="Python.j_sPool_M" />
         <item itemvalue="Python.js_S_pool" />
-        <item itemvalue="Python.Table_Fdata" />
-        <item itemvalue="Python.M_ps" />
-        <item itemvalue="Python.Homepage_pic" />
-        <item itemvalue="Python.Company_location" />
+        <item itemvalue="Python.mysql_python_marketV" />
+        <item itemvalue="Python.mysql_python" />
       </list>
     </recent_temporary>
   </component>
@@ -203,13 +254,36 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="470" y="109" key="FileChooserDialogImpl" timestamp="1588074202505">
-      <screen x="0" y="0" width="1366" height="714" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1598343401636">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="470" y="109" key="FileChooserDialogImpl/0.0.1366.714@0.0.1366.714" timestamp="1588074202505" />
-    <state x="0" y="0" width="1366" height="714" key="SettingsEditor" timestamp="1588074191975">
-      <screen x="0" y="0" width="1366" height="714" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598343401636" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1598343401635">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="1366" height="714" key="SettingsEditor/0.0.1366.714@0.0.1366.714" timestamp="1588074191975" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598343401635" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1598343401635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598343401635" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1598343401635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598343401635" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1598326525731">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598326525731" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/股票池的处理/js_S_pool.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -47,7 +47,7 @@ def Python_sel_Mysql():
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cur = connection.cursor()
     #sql 语句
-    for i in range(1,3600):
+    for i in range(1,3651):
         sql = 'select coding from js_infos where id = %s ' % i
         # #执行sql语句
         cur.execute(sql)
@@ -87,7 +87,7 @@ if __name__ == '__main__':
 # DAT varchar(11),
 # profits varchar(20)
 # ) engine=InnoDB default charset=utf8;
-
+#
 # create table js_FinData1(
 # id int not null primary key auto_increment,
 # coding varchar(8),
