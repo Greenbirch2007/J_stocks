@@ -20,7 +20,7 @@ import datetime
 engine_jsMons = create_engine('mysql+pymysql://root:123456@localhost:3306/JS_Mons')
 # 查询语句，选出employee表中的所有数据 "JS225_JS400"
 
-sql_sp_LJ = 'select * from sp_LJ_255  ; '
+sql_sp_LJ = 'select * from sp_LJ_225  ; '
 
 ln = os.getcwd()
 

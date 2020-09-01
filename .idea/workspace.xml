@@ -1,56 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9856dad8-114e-4dc0-8793-9f2718c3e945" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/225模型/225财务/225fm_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/225模型/225财务/225fm_mv.py" afterDir="false" />
+    <list default="true" id="86aea537-80a7-4d3c-bfa8-a85a07c618ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/J_stocks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/J_stocks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/js_stock.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/middlewares.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/pipelines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/spiders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/spiders/js_note.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/225模型/225_m_daily.py" beforeDir="false" afterPath="$PROJECT_DIR$/225模型/225_m_daily.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/225模型/JS_Mons225.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/225模型/JS_Mons225.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/225模型/cron_225_m_.py" beforeDir="false" afterPath="$PROJECT_DIR$/225模型/cron_225_m_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/225模型/监控模板（JS225）.xls" beforeDir="false" afterPath="$PROJECT_DIR$/225模型/监控模板（JS225）.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/400模型/400_m_daily.py" beforeDir="false" afterPath="$PROJECT_DIR$/400模型/400_m_daily.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/400模型/JS_Mons400.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/400模型/JS_Mons400.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/400模型/监控模板（JS400）.xls" beforeDir="false" afterPath="$PROJECT_DIR$/400模型/监控模板（JS400）.xls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/J_stocks$stcoks_note2.coverage" NAME="stcoks_note2 Coverage Results" MODIFIED="1537241319715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/J_stocks$main.coverage" NAME="main Coverage Results" MODIFIED="1537251238040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../js_stock/js_stock" />
-    <SUITE FILE_PATH="coverage/J_stocks$on_time_spider.coverage" NAME="on_time_spider Coverage Results" MODIFIED="1534127876108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/J_stocks$stocks_note1.coverage" NAME="stocks_note1 Coverage Results" MODIFIED="1537247065996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="SQL Script" />
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectId" id="1PXrQWahSqAPomSCh4SqayHvQq2" />
+  <component name="ProjectId" id="1guT5qLdiZqHQknnSukpt8D8RcG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,12 +29,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.cron_400_m_">
+    <configuration name="225_m_daily" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="J_stocks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/225模型" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/225模型/225_m_daily.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="400_m_daily" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="400fm_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cron_225_m_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,32 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/400模型/400财务" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/225模型" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/400模型/400财务/400fm_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="400fm_mv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="J_stocks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/400模型/400财务" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/400模型/400财务/400fm_mv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/225模型/cron_225_m_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,41 +116,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="js_S_pool400" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="J_stocks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/400模型/400股票池" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/400模型/400股票池/js_S_pool400.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.400fm_data" />
-      <item itemvalue="Python.400fm_mv" />
-      <item itemvalue="Python.js_S_pool400" />
-      <item itemvalue="Python.400_m_daily" />
-      <item itemvalue="Python.cron_400_m_" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.cron_400_m_" />
         <item itemvalue="Python.400_m_daily" />
-        <item itemvalue="Python.js_S_pool400" />
-        <item itemvalue="Python.400fm_mv" />
-        <item itemvalue="Python.400fm_data" />
+        <item itemvalue="Python.cron_225_m_" />
+        <item itemvalue="Python.225_m_daily" />
       </list>
     </recent_temporary>
   </component>
@@ -192,60 +130,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9856dad8-114e-4dc0-8793-9f2718c3e945" name="Default" comment="" />
-      <created>1530542907144</created>
+      <changelist id="86aea537-80a7-4d3c-bfa8-a85a07c618ba" name="Default Changelist" comment="" />
+      <created>1598963303506</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1530542907144</updated>
+      <updated>1598963303506</updated>
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1598948347378">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1598967458240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598948347378" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1598948347378">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598967458240" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1598967458239">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598948347378" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1598948347378">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598967458239" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1598967458239">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598948347378" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1598948347378">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598967458239" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1598967458240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598948347378" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1598326525731">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598967458240" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1598964594243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598326525731" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/股票池的处理/js_S_pool.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598964594243" />
   </component>
 </project>

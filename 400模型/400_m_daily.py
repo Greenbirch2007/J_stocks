@@ -61,6 +61,14 @@ def remove_block(items):
         f = "".join(it.split())
         new_items.append(f)
     return new_items
+def call_page(url):
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            return response.text
+        return None
+    except RequestException:
+        return None
 
 
 class JSPool_M(object):
@@ -109,8 +117,11 @@ def insertDB(content):
         sp_func = lambda x: ",".join(x)
         f_lcode = sp_func(f_jsp)
 
-        f_ls = "%s," * len(jl)# 这里错了
-        cursor.executemany('insert into sp_LJ_400 ({0}) values ({1})'.format(f_lcode, f_ls[:-1]), content)
+        f_ls = "%s," * len(jl)+"%s,"# 这里错了
+        fc = f_lcode+",J_index400"
+        print(fc)
+        print(f_ls[:-1])
+        cursor.executemany('insert into sp_LJ_400 ({0}) values ({1})'.format(fc,f_ls[:-1]), content)
         connection.commit()
         connection.commit()
         connection.close()
@@ -122,13 +133,24 @@ def insertDB(content):
 
 
 
+def get_index400():
+    url ='https://kabutan.jp/stock/?code=0040'
+    html =call_page(url)
+    element = etree.HTML(html)
+
+    now_price = element.xpath('//*[@id="stockinfo_i1"]/div[2]/span[2]/text()')
+    f_price = RemoveDot(remove_block(now_price))
+    return f_price
 
 
 
 if __name__ == '__main__':
+    f_index400 = get_index400()
+
     jl = [2127,3141,3148,3254,3288,3549,3769,4091,4568,4684,4768,5929,6877,7309,7532,7649,7974,8111,8424,9065,9697]
 
     big_list = []
+
 
 
     for it in jl:
@@ -137,6 +159,7 @@ if __name__ == '__main__':
         jsp = JSPool_M(url)# 这里把请求和解析都进行了处理
         jsp.page_parse_()
     ff_l = []
+    big_list.append(f_index400[0])
     f_tup = tuple(big_list)
     ff_l.append((f_tup))
     print(ff_l)
@@ -165,4 +188,4 @@ if __name__ == '__main__':
 
 
 
- # create table sp_LJ_400(id int not null primary key auto_increment, J2127 FLOAT,J3141 FLOAT,J3148 FLOAT,J3254 FLOAT,J3288 FLOAT,J3549 FLOAT,J3769 FLOAT,J4091 FLOAT,J4568 FLOAT,J4684 FLOAT,J4768 FLOAT,J5929 FLOAT,J6877 FLOAT,J7309 FLOAT,J7532 FLOAT,J7649 FLOAT,J7974 FLOAT,J8111 FLOAT,J8424 FLOAT,J9065 FLOAT,J9697 FLOAT, LastTime timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ) engine=InnoDB  charset=utf8;
+ # create table sp_LJ_400(id int not null primary key auto_increment, J2127 FLOAT,J3141 FLOAT,J3148 FLOAT,J3254 FLOAT,J3288 FLOAT,J3549 FLOAT,J3769 FLOAT,J4091 FLOAT,J4568 FLOAT,J4684 FLOAT,J4768 FLOAT,J5929 FLOAT,J6877 FLOAT,J7309 FLOAT,J7532 FLOAT,J7649 FLOAT,J7974 FLOAT,J8111 FLOAT,J8424 FLOAT,J9065 FLOAT,J9697 FLOAT, J_index400 float,LastTime timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ) engine=InnoDB  charset=utf8;

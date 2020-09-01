@@ -62,6 +62,14 @@ def remove_block(items):
         new_items.append(f)
     return new_items
 
+def call_page(url):
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            return response.text
+        return None
+    except RequestException:
+        return None
 
 class JSPool_M(object):
 
@@ -105,12 +113,12 @@ def insertDB(content):
 
     try:
         # 用一个列表解析
-        f_jsp = ["J" + str(cod) for cod in jl]
+        f_jsp = ["J" + str(cod) for cod in jl_db]
         sp_func = lambda x: ",".join(x)
         f_lcode = sp_func(f_jsp)
 
-        f_ls = "%s," * len(jl)# 这里错了
-        cursor.executemany('insert into sp_LJ_255 ({0}) values ({1})'.format(f_lcode, f_ls[:-1]), content)
+        f_ls = "%s," * len(jl_db)# 这里错了
+        cursor.executemany('insert into sp_LJ_225 ({0}) values ({1})'.format(f_lcode, f_ls[:-1]), content)
         connection.commit()
         connection.commit()
         connection.close()
@@ -126,12 +134,13 @@ def insertDB(content):
 
 
 if __name__ == '__main__':
-    jl = [1925,2801,4568,4578,6361,6841,7004,7912,8331,8804,8830,9433,9983]
+    jl_db = [1925,2801,4568,4578,6361,6841,7004,7912,8331,8804,8830,9433,9983,"_index225"]
+    jl_web = [1925,2801,4568,4578,6361,6841,7004,7912,8331,8804,8830,9433,9983,100000018]
 
     big_list = []
 
 
-    for it in jl:
+    for it in jl_web:
         url = 'https://minkabu.jp/stock/{0}'.format(it)
         print(url)
         jsp = JSPool_M(url)# 这里把请求和解析都进行了处理
@@ -165,4 +174,4 @@ if __name__ == '__main__':
 
 
 
- # create table sp_LJ_255(id int not null primary key auto_increment, J1925 float,J2801 float,J4568 float,J4578 float,J6361 float,J6841 float,J7004 float,J7912 float,J8331 float,J8804 float,J8830 float,J9433 float,J9983 float, LastTime timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ) engine=InnoDB  charset=utf8;
+ # create table sp_LJ_225(id int not null primary key auto_increment, J1925 float,J2801 float,J4568 float,J4578 float,J6361 float,J6841 float,J7004 float,J7912 float,J8331 float,J8804 float,J8830 float,J9433 float,J9983 float,J_index225 float, LastTime timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ) engine=InnoDB  charset=utf8;
