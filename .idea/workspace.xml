@@ -2,63 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9856dad8-114e-4dc0-8793-9f2718c3e945" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/J_stocks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/J_stocks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/225模型/225财务/225fm_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/225模型/225财务/225fm_mv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepinScreenshot_select-area_20200616124437.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Findata_industry.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datas.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/.idea/js_stock.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/middlewares.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/pipelines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/spiders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/js_stock/spiders/js_note.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_stock/scrapy.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/处理mysql的python脚本/mysql_python.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小脚本/Table_Fdata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小脚本/financial_data_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/小脚本/financial_data_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/小脚本/stcoks_note2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/小脚本/stocks_note1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池月度监控/2020.4.28监控个股.xls" beforeDir="false" afterPath="$PROJECT_DIR$/股票池月度监控/2020.4.28监控个股.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池月度监控/j_sPool_M.py" beforeDir="false" afterPath="$PROJECT_DIR$/股票池月度监控/j_sPool_M.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/1824.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/2020.1.29 JS 股票池.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/2020.4.30JS 股票池.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/2127.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/2928.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/3003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/3092.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/3258.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/4004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/4182.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/4506.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/4921.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/5702.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/5706.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/5713.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/6058.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/6268.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/6632.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/6861.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/7806.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/8032.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/8035.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/8909.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/9684.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/9766.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/9983.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/js_S_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/js_S_pool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/股票池sql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/股票池sql.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/股票池的处理/股票池代码整理文档.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/股票池的处理/股票池代码整理文档.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/js_stock.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/js_stock/spiders/js_note.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_stock_SCRAPY/scrapy.cfg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +64,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.cronb_jspMons">
-    <configuration name="cronb_jspMons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.cron_400_m_">
+    <configuration name="400_m_daily" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,11 +73,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/股票池月度监控" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/400模型" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/股票池月度监控/cronb_jspMons.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/400模型/400_m_daily.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="j_sPool_M" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="400fm_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/股票池月度监控" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/400模型/400财务" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/股票池月度监控/j_sPool_M.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/400模型/400财务/400fm_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="js_S_pool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="400fm_mv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,11 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/股票池的处理" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/400模型/400财务" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/股票池的处理/js_S_pool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/400模型/400财务/400fm_mv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql_python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cron_400_m_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/处理mysql的python脚本" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/400模型" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/处理mysql的python脚本/mysql_python.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/400模型/cron_400_m_.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql_python_marketV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="js_S_pool400" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="J_stocks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,11 +157,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/处理mysql的python脚本" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/400模型/400股票池" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/处理mysql的python脚本/mysql_python_marketV.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/400模型/400股票池/js_S_pool400.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,19 +171,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.mysql_python" />
-      <item itemvalue="Python.mysql_python_marketV" />
-      <item itemvalue="Python.js_S_pool" />
-      <item itemvalue="Python.j_sPool_M" />
-      <item itemvalue="Python.cronb_jspMons" />
+      <item itemvalue="Python.400fm_data" />
+      <item itemvalue="Python.400fm_mv" />
+      <item itemvalue="Python.js_S_pool400" />
+      <item itemvalue="Python.400_m_daily" />
+      <item itemvalue="Python.cron_400_m_" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cronb_jspMons" />
-        <item itemvalue="Python.j_sPool_M" />
-        <item itemvalue="Python.js_S_pool" />
-        <item itemvalue="Python.mysql_python_marketV" />
-        <item itemvalue="Python.mysql_python" />
+        <item itemvalue="Python.cron_400_m_" />
+        <item itemvalue="Python.400_m_daily" />
+        <item itemvalue="Python.js_S_pool400" />
+        <item itemvalue="Python.400fm_mv" />
+        <item itemvalue="Python.400fm_data" />
       </list>
     </recent_temporary>
   </component>
@@ -254,22 +216,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1598343401636">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1598948347378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598343401636" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1598343401635">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598948347378" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1598948347378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598343401635" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1598343401635">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598948347378" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1598948347378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598343401635" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1598343401635">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598948347378" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1598948347378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598343401635" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598948347378" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1598326525731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
