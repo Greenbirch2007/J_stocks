@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86aea537-80a7-4d3c-bfa8-a85a07c618ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/J_stocks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/J_stocks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/225模型/225_m_daily.py" beforeDir="false" afterPath="$PROJECT_DIR$/225模型/225_m_daily.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/225模型/JS_Mons225.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/225模型/JS_Mons225.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/225模型/cron_225_m_.py" beforeDir="false" afterPath="$PROJECT_DIR$/225模型/cron_225_m_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/225模型/监控模板（JS225）.xls" beforeDir="false" afterPath="$PROJECT_DIR$/225模型/监控模板（JS225）.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/400模型/400_m_daily.py" beforeDir="false" afterPath="$PROJECT_DIR$/400模型/400_m_daily.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/400模型/JS_Mons400.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/400模型/JS_Mons400.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/400模型/监控模板（JS400）.xls" beforeDir="false" afterPath="$PROJECT_DIR$/400模型/监控模板（JS400）.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池月度监控/2020.4.28监控个股.xls" beforeDir="false" afterPath="$PROJECT_DIR$/股票池月度监控/2020.4.28监控个股.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/股票池月度监控/监控模板（JS）.xls" beforeDir="false" afterPath="$PROJECT_DIR$/股票池月度监控/监控模板（JS）.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/财务M/2020.8.25.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/财务M/2020.8.25.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/日本金融各版块跟踪研究" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.cron_400_m_">
@@ -139,6 +134,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599196112344">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599196112344" />
     <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1598967458240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
