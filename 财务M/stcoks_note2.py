@@ -134,7 +134,8 @@ if __name__ == '__main__':
 # content = parse_stock_note(html)
 # insertDB(content)
 
-
+# T_title varchar(60),
+# market_value varchar(20),
 
 # # name是mysql的关键字！
 # create table js_infos_finanData(

@@ -21,7 +21,7 @@ if __name__ =='__main__':
     cur = connection.cursor()
 
     # sql 语句
-    count_sql = "select count(*) from js_FinData; "
+    count_sql = "select count(*) from Re_inDT; "
     cur.execute(count_sql)
     long_count = cur.fetchone()['count(*)']
     # sql 语句
@@ -29,7 +29,7 @@ if __name__ =='__main__':
     for num in range(1, long_count):
 
 
-        sql = 'select name,d2018,d2017,d2016,industry from js_FinData where id = %s ' % num
+        sql = 'select name,d2018,d2017,d2016,industry,coding,T_ind,market_value from Re_inDT where id = %s ' % num
         # #执行sql语句
         cur.execute(sql)
         # #获取所有记录列表
@@ -37,7 +37,7 @@ if __name__ =='__main__':
         big_list.append(data)
     print(big_list)
     l_path = os.getcwd()
-    head = ['industry','name',"d2018","d2017","d2016"]
-    csv_dict_write('{0}\\js_data.csv'.format(l_path),head,big_list)
+    head = ['name',"d2018","d2017","d2016","industry","coding","T_ind","market_value"]
+    csv_dict_write('{0}\\Re_inDT.csv'.format(l_path),head,big_list)
     print("数据导出完成～")
 
