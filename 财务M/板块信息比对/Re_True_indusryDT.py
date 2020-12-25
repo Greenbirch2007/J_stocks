@@ -105,3 +105,5 @@ if __name__ == "__main__":
 # T_ind varchar(60),
 # market_value varchar(20)
 # ) engine=InnoDB  charset=utf8;
+
+# drop   table Re_inDT;
