@@ -118,7 +118,7 @@ def insertDB(content):
         f_lcode = sp_func(f_jsp)
 
         f_ls = "%s," * len(jl)+"%s,"# 这里错了
-        fc = f_lcode+",J_index400"
+        fc = f_lcode
         print(fc)
         print(f_ls[:-1])
         cursor.executemany('insert into sp_LJ_400 ({0}) values ({1})'.format(fc,f_ls[:-1]), content)
