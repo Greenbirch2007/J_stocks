@@ -117,7 +117,7 @@ def insertDB(content):
         sp_func = lambda x: ",".join(x)
         f_lcode = sp_func(f_jsp)
 
-        f_ls = "%s," * len(jl)+"%s,"# 这里错了
+        f_ls = "%s," * len(jl)# 这里错了
         fc = f_lcode
         print(fc)
         print(f_ls[:-1])
